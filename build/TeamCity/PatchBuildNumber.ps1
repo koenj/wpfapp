@@ -2,7 +2,7 @@ $ErrorMessage = "POWERSHELL ERROR"
 try {
 
 	# Parse the BuildNumber from the AssemblyInfo.Shared.cs file
-	$assemblyInfoPath = '.\src\AssemblyInfo.Sharedd.cs'
+	$assemblyInfoPath = '.\src\AssemblyInfo.Shared.cs'
 	if (-Not(Test-Path($assemblyInfoPath))) {
 	  Write-Host "##teamcity[buildProblem description='Version cannot be found: AssemblyInfo.Shared.cs file not found']"
 	}
