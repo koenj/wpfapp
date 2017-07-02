@@ -14,7 +14,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace eTools.Desktop
+namespace eTools.Desktop 
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
