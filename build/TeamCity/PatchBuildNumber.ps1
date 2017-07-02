@@ -2,7 +2,7 @@ $ErrorMessage = "POWERSHELL ERROR"
 try {
 
 	# Parse the BuildNumber from the AssemblyInfo.Shared.cs file
-	$assemblyInfoPath = '.\src\AssemblyInfo.Shared.cs'
+	$assemblyInfoPath = '.\src\AssemblyInfo.Sharedd.cs'
 	if (-Not(Test-Path($assemblyInfoPath))) {
 	  Write-Host "##teamcity[buildProblem description='Version cannot be found: AssemblyInfo.Shared.cs file not found']"
 	}
@@ -12,7 +12,7 @@ try {
 	$major = $matches['major']
 	$minor = $matches['minor']
 	$patch = $matches['patch']
-	$buildNumber = "$major.$minor.$patch.$args[0]"  # TeamCity's %build.counter% is passed as an arg
+	$buildNumber = "$major.$minor.$patch.$args"  # TeamCity's %build.counter% is passed as an arg
 
 	
 	# Emit the BuildNumber to label the TeamCity build
