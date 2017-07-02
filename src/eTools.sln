@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Desktop", "Desktop", "{0993D4BE-EE72-4D11-8EFF-3DEAB3C7C2F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eTools.Desktop", "Desktop\eTools.Desktop\eTools.Desktop.csproj", "{D22B2AD9-E72B-47DC-AC28-B8AEE80926F8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{AE8CEEC6-10E2-45DA-AF50-E5024CE286C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eTools.Desktop.Tests", "Desktop\Tests\eTools.Desktop.Tests\eTools.Desktop.Tests.csproj", "{160EE7CF-9DEF-4CF2-8BE5-207260E2B660}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D22B2AD9-E72B-47DC-AC28-B8AEE80926F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D22B2AD9-E72B-47DC-AC28-B8AEE80926F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D22B2AD9-E72B-47DC-AC28-B8AEE80926F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D22B2AD9-E72B-47DC-AC28-B8AEE80926F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160EE7CF-9DEF-4CF2-8BE5-207260E2B660}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160EE7CF-9DEF-4CF2-8BE5-207260E2B660}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160EE7CF-9DEF-4CF2-8BE5-207260E2B660}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160EE7CF-9DEF-4CF2-8BE5-207260E2B660}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D22B2AD9-E72B-47DC-AC28-B8AEE80926F8} = {0993D4BE-EE72-4D11-8EFF-3DEAB3C7C2F0}
+		{AE8CEEC6-10E2-45DA-AF50-E5024CE286C0} = {0993D4BE-EE72-4D11-8EFF-3DEAB3C7C2F0}
+		{160EE7CF-9DEF-4CF2-8BE5-207260E2B660} = {AE8CEEC6-10E2-45DA-AF50-E5024CE286C0}
+	EndGlobalSection
+EndGlobal
